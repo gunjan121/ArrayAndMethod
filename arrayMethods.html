@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Metro Plane</title>
+</head>
+<body>
+ <script type="text/javascript">
+
+ 	// let age=7;
+ 	// let gender='female';
+ 	// let finaldiscount;
+ 	
+ 	// if(age<=8){
+ 	// 	finaldiscount='50';
+ 	// }
+ 	// else if(gender==='female'){
+ 	// 	finaldiscount='50'
+ 	// }
+ 	// else if()
+
+
+ 		//ARRAY PROPERTIES AND METHOD
+ 		// 1.Array.isArray() check if  a variable is an isArray
+
+
+ 	    //COMMMAN METHODS
+ 	    // 1.PUSH/POP:
+ 	    // 2.shift/unshift:add or remove from front unshirft =left
+ 	    // 3.splice:add or remove element
+ 	    // 4.toString:convert to toStrin
+ 	    // 5.sor:sort elements
+ 	    // 6.valueof:get aray itself
+
+
+ 	    // ARRAY ALSO USE REFERENCE LIKE OBJECT
+ 	    // DE-STRUCTURING ALSO WORKD FOR ARAY
+
+
+
+ 	//pushing a value to ary
+ 		// let ary=[3,2,4,7,5]
+ 		// console.log(ary)
+ 		// ary.push(90)
+ 		// console.log(ary)
+
+
+ 		//sort
+ 		//  ary=[3,2,4,7,5]
+ 		// console.log(ary)
+ 		// ary.sort()
+ 		// console.log(ary)
+
+
+ 		// //to stirng
+ 		//  ary=[3,2,4,7,5]
+ 		// ary.toString
+ 		// console.log(ary)
+
+ 		// add element at beginning
+ 		let ary1=[5,6];
+ 		console.log(ary1)
+ 		ary1.unshift(4)
+ 		console.log(ary1)
+
+
+ 		//add element at end
+ 		ary1=[5,6];
+ 		ary1.push(7)
+ 		console.log(ary1)
+ 		// ary1.shift(7)
+ 		// console.log(ary1)
+
+
+ 		function myAry(ary2,position)
+ 		{
+ 			return ary2[position-1]
+ 		}
+
+ 		ary2=[2,4,3,6,38,96,3]
+ 		console.log(myAry(ary2,3))
+
+
+ 		ary3=[2,3,4,5]
+
+
+ 		//COPY ARY 
+ 		function copyary(ary)
+ 		{
+ 			return ary.slice(0,ary.length)
+
+ 		}
+
+ 		ary=[12,23,1,24,2]
+ 		console.log(ary)
+ 		 ary3=copyary(ary)
+ 		 ary3[0]="number"
+ 		console.log(ary3)
+
+		function isprime(num)
+		{
+			for(let i=2;i<num;i++)
+			{
+				if(num%i==0)
+				{
+					return false;
+				}
+			}
+			return true;
+		}
+		// let i=1;
+		// while(true)
+		// 	if(i<=5)
+		// 	{
+		// 		return 
+		// 	}
+
+
+
+			for(let i=10;i>=0;i--)
+			{
+				console.log(i)
+			}
+ </script>
+</body>
+</html>
